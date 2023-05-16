@@ -11,7 +11,7 @@
 <p>Se Implementó Interacción con el DOM y LocalStorage</p>
 <p>Además se agregó un Historial de las Cotizaciones</p>
 <br>
-<p>Se Optimizó el Código con lo Visto en Clases, agregando Objetos y array para hacerlo más simple y fácil de leer</p>
+
 <br><br>
 <h2>Definición: SEGURO DE CAUCION</h2>
 <p>Un seguro de caución es un contrato de seguro que garantiza el cumplimiento de una obligación o contrato por parte del tomador del seguro, ante un tercero beneficiario.</p>
