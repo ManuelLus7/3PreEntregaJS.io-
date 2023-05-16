@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cotizador de Pólizas de Caución</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+	<h1>Cotizador de Pólizas de Caución</h1>
+	<form>
+		<label for="usuario">Nombre del Usuario:</label>
+		<input type="text" id="usuario" name="usuario"><br><br>
+		<label for="obra">Nombre de la Obra:</label>
+		<input type="text" id="obra" name="obra"><br><br>
+		<label for="tipo_seguro">Tipo de Seguro:</label>
+		<select id="tipo_seguro" name="tipo_seguro">
+			<option value="Mantenimiento de Oferta">Mantenimiento de Oferta</option>
+			<option value="Ejecución de Contrato">Ejecución de Contrato</option>
+			<option value="Anticipo Financiero">Anticipo Financiero</option>
+			<option value="Fondo de Reparo">Fondo de Reparo</option>
+		</select><br><br>
+		<label for="suma_asegurada">Suma Asegurada:</label>
+		<input type="number" id="suma_asegurada" name="suma_asegurada"><br><br>
+		<button type="button" onclick="calcularCotizacion()">Solicitar Cotización</button>
+	</form>
+	<div id="resultado"></div>
+	<br><br>
+	<button type="button" onclick="mostrarHistorial()">Mostrar Historial</button>
+	<div id="historial"></div>
+	<br><br>
+	<script src="cotizador.js"></script>
+</body>
+</html>

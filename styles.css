@@ -1,0 +1,65 @@
+body {
+	background-color: #E8F5E9;
+	color: #212121;
+	font-family: sans-serif;
+}
+
+h1 {
+	text-align: center;
+}
+
+form {
+	display: flex;
+  	flex-direction: column;
+  	background-color: #9cf59f;
+	padding: 20px;
+	border-radius: 25px;
+	box-shadow: 0px 0px 5px #BDBDBD;
+}
+
+label {
+	display: block;
+	margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+	padding: 5px;
+	border: none;
+	border-radius: 6px;
+	box-shadow: 0px 0px 3px #BDBDBD;
+	margin-bottom: 10px;
+}
+
+button {
+	background-color: #0a950f;
+	color: #FFFFFF;
+	border: none;
+	border-radius: 13px;
+	padding: 10px 20px;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+#resultado,
+#historial {
+	background-color: #FFFFFF;
+	padding: 20px;
+	border-radius: 5px;
+	box-shadow: 0px 0px 5px #BDBDBD;
+	margin-top: 20px;
+	display: none;
+}
+
+#historial table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+#historial th,
+#historial td {
+	padding: 5px;
+	text-align: left;
+	border-bottom: 1px solid #BDBDBD;
+}
